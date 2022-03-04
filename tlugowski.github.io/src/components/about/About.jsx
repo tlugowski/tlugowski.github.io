@@ -1,10 +1,16 @@
 import "./about.css";
 import Award from "../../img/award.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 
 const About = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <div className="about">
-      <div className="about-left">
+      <div data-aos="fade-right" className="about-left">
         <div className="about-card bg"></div>
         <div className="about-card">
           <img
@@ -14,7 +20,7 @@ const About = () => {
           />
         </div>
       </div>
-      <div className="about-right">
+      <div data-aos="fade-left" className="about-right">
         <h1 className="about-title">About Me</h1>
         <p className="about-sub">My Software Testing background..</p>
         <p className="about-desc">

@@ -10,7 +10,7 @@ import { timelineEducationCSSConfig } from "./timlineEducation.helpes";
 
 const TimelineEducation = () => {
   const theme = useContext(ThemeContext);
-  const darkMode = theme.state.darkMode; // boolan
+  const darkMode = theme.state.darkMode;
   const timelineColors = useMemo(
     () =>
       darkMode
