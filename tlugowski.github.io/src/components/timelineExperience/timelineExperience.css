@@ -1,0 +1,17 @@
+.timelineExperience {
+  background-image: url("../../img/workexperiance.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.timelineExperienceContent {
+  padding: 0px 0px 100px 0px;
+}
+
+.myExperiance {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 100px 0px 50px 0px;
+}

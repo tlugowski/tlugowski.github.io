@@ -1,0 +1,40 @@
+.toolsList {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 20px 0px 50px 0px;
+}
+
+.tools-picture-container {
+  width: 700px;
+  height: auto;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  position: center;
+  padding-bottom: 100px;
+}
+
+div[class*="icon-tools"] img:hover {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+span.tooltip {
+  display: none;
+}
+
+.tools-container img:hover + span.tooltip {
+  display: block;
+}
