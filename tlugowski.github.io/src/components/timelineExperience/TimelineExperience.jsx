@@ -10,7 +10,7 @@ import { timelineExperienceCSSConfig } from "./timlineExpirience.helpes";
 
 const TimelineExperience = () => {
   const theme = useContext(ThemeContext);
-  const darkMode = theme.state.darkMode; // boolan
+  const darkMode = theme.state.darkMode;
   const timelineColors = useMemo(
     () =>
       darkMode
@@ -31,9 +31,9 @@ const TimelineExperience = () => {
           >
             <VerticalTimelineElement
               className={timelineColors.verticalTimelineElement.className}
-              contentStyle={timelineColors.verticalTimelineElement.contentStyle}
+              contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
               contentArrowStyle={{
-                borderRight: "7px solid green",
+                borderRight: "7px solid rgb(33, 150, 243)",
               }}
               date="05/2021 - present"
               iconStyle={{
@@ -55,10 +55,7 @@ const TimelineExperience = () => {
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               date="01/2021 - 05/2021"
-              contentStyle={{
-                background: "white)",
-                color: "black",
-              }}
+              contentStyle={timelineColors.verticalTimelineElement.contentStyle}
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             >
               <h3 className="vertical-timeline-element-title">
@@ -75,10 +72,7 @@ const TimelineExperience = () => {
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               date="09/2017 - 01/2021"
-              contentStyle={{
-                background: "white)",
-                color: "black",
-              }}
+              contentStyle={timelineColors.verticalTimelineElement.contentStyle}
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             >
               <h3 className="vertical-timeline-element-title">Test Designer</h3>
@@ -95,10 +89,7 @@ const TimelineExperience = () => {
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               date="03/2017 - 09/2017"
-              contentStyle={{
-                background: "white)",
-                color: "black",
-              }}
+              contentStyle={timelineColors.verticalTimelineElement.contentStyle}
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             >
               <h3 className="vertical-timeline-element-title">
@@ -117,10 +108,7 @@ const TimelineExperience = () => {
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
               date="03/2016 - 03/2017"
-              contentStyle={{
-                background: "white)",
-                color: "black",
-              }}
+              contentStyle={timelineColors.verticalTimelineElement.contentStyle}
               iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
             >
               <h3 className="vertical-timeline-element-title">
@@ -134,10 +122,7 @@ const TimelineExperience = () => {
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
               date="01/2014 - 03/2016"
-              contentStyle={{
-                background: "white)",
-                color: "black",
-              }}
+              contentStyle={timelineColors.verticalTimelineElement.contentStyle}
               iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
             >
               <h3 className="vertical-timeline-element-title">
@@ -157,10 +142,7 @@ const TimelineExperience = () => {
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
               date="09/2012 - 01/2014"
-              contentStyle={{
-                background: "white)",
-                color: "black",
-              }}
+              contentStyle={timelineColors.verticalTimelineElement.contentStyle}
               iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
             >
               <h3 className="vertical-timeline-element-title">

@@ -1,4 +1,4 @@
-export const timelineExperienceCSSConfig = {
+export const timelineEducationCSSConfig = {
   dark: {
     lineColor: "black",
     verticalTimelineElement: {

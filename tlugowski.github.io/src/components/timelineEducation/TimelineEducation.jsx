@@ -4,8 +4,20 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import { ThemeContext } from "../../context";
+import { useContext, useMemo } from "react";
+import { timelineEducationCSSConfig } from "./timlineEducation.helpes";
 
 const TimelineEducation = () => {
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
+  const timelineColors = useMemo(
+    () =>
+      darkMode
+        ? timelineEducationCSSConfig.dark
+        : timelineEducationCSSConfig.light,
+    [darkMode]
+  );
   return (
     <div>
       <div className="myEducation">
@@ -34,10 +46,7 @@ const TimelineEducation = () => {
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               date="2014 - 2015"
-              contentStyle={{
-                background: "white)",
-                color: "black",
-              }}
+              contentStyle={timelineColors.verticalTimelineElement.contentStyle}
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             >
               <h3 className="vertical-timeline-element-title">
@@ -49,10 +58,7 @@ const TimelineEducation = () => {
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               date="2010 - 2014"
-              contentStyle={{
-                background: "white)",
-                color: "black",
-              }}
+              contentStyle={timelineColors.verticalTimelineElement.contentStyle}
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             >
               <h3 className="vertical-timeline-element-title">
