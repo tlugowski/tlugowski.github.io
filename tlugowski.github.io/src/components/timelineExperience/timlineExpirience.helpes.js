@@ -8,11 +8,7 @@ export const timelineExperienceCSSConfig = {
         color: "white",
       },
       contentArrowStyle: {
-        borderRight: "",
-      },
-      iconStyle: {
-        background: "rgb(116, 25, 113)",
-        color: "black",
+        borderRight: "7px solid rgb(34, 34, 34)",
       },
     },
   },
@@ -25,11 +21,7 @@ export const timelineExperienceCSSConfig = {
         color: "black",
       },
       contentArrowStyle: {
-        borderRight: "",
-      },
-      iconStyle: {
-        background: "rgb(116, 25, 113)",
-        color: "black",
+        borderRight: "7px solid white",
       },
     },
   },

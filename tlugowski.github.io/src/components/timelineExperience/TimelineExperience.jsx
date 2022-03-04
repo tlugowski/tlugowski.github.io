@@ -56,6 +56,9 @@ const TimelineExperience = () => {
               className="vertical-timeline-element--work"
               date="01/2021 - 05/2021"
               contentStyle={timelineColors.verticalTimelineElement.contentStyle}
+              contentArrowStyle={
+                timelineColors.verticalTimelineElement.contentArrowStyle
+              }
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             >
               <h3 className="vertical-timeline-element-title">
@@ -73,6 +76,9 @@ const TimelineExperience = () => {
               className="vertical-timeline-element--work"
               date="09/2017 - 01/2021"
               contentStyle={timelineColors.verticalTimelineElement.contentStyle}
+              contentArrowStyle={
+                timelineColors.verticalTimelineElement.contentArrowStyle
+              }
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             >
               <h3 className="vertical-timeline-element-title">Test Designer</h3>
@@ -90,6 +96,9 @@ const TimelineExperience = () => {
               className="vertical-timeline-element--work"
               date="03/2017 - 09/2017"
               contentStyle={timelineColors.verticalTimelineElement.contentStyle}
+              contentArrowStyle={
+                timelineColors.verticalTimelineElement.contentArrowStyle
+              }
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             >
               <h3 className="vertical-timeline-element-title">
@@ -109,6 +118,9 @@ const TimelineExperience = () => {
               className="vertical-timeline-element--education"
               date="03/2016 - 03/2017"
               contentStyle={timelineColors.verticalTimelineElement.contentStyle}
+              contentArrowStyle={
+                timelineColors.verticalTimelineElement.contentArrowStyle
+              }
               iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
             >
               <h3 className="vertical-timeline-element-title">
@@ -123,6 +135,9 @@ const TimelineExperience = () => {
               className="vertical-timeline-element--education"
               date="01/2014 - 03/2016"
               contentStyle={timelineColors.verticalTimelineElement.contentStyle}
+              contentArrowStyle={
+                timelineColors.verticalTimelineElement.contentArrowStyle
+              }
               iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
             >
               <h3 className="vertical-timeline-element-title">
@@ -143,6 +158,9 @@ const TimelineExperience = () => {
               className="vertical-timeline-element--education"
               date="09/2012 - 01/2014"
               contentStyle={timelineColors.verticalTimelineElement.contentStyle}
+              contentArrowStyle={
+                timelineColors.verticalTimelineElement.contentArrowStyle
+              }
               iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
             >
               <h3 className="vertical-timeline-element-title">

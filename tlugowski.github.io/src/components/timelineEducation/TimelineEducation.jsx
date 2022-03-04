@@ -10,7 +10,7 @@ import { timelineEducationCSSConfig } from "./timlineEducation.helpes";
 
 const TimelineEducation = () => {
   const theme = useContext(ThemeContext);
-  const darkMode = theme.state.darkMode;
+  const darkMode = theme.state.darkMode; // boolan
   const timelineColors = useMemo(
     () =>
       darkMode
@@ -47,6 +47,9 @@ const TimelineEducation = () => {
               className="vertical-timeline-element--work"
               date="2014 - 2015"
               contentStyle={timelineColors.verticalTimelineElement.contentStyle}
+              contentArrowStyle={
+                timelineColors.verticalTimelineElement.contentArrowStyle
+              }
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             >
               <h3 className="vertical-timeline-element-title">
@@ -59,6 +62,9 @@ const TimelineEducation = () => {
               className="vertical-timeline-element--work"
               date="2010 - 2014"
               contentStyle={timelineColors.verticalTimelineElement.contentStyle}
+              contentArrowStyle={
+                timelineColors.verticalTimelineElement.contentArrowStyle
+              }
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             >
               <h3 className="vertical-timeline-element-title">
