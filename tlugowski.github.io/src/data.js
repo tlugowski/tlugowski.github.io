@@ -6,8 +6,8 @@ export const products = [
   },
   {
     id: 2,
-    img: "https://images.pexels.com/photos/2882566/pexels-photo-2882566.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-    link: "http://lama.dev",
+    img: "https://images.pexels.com/photos/209224/pexels-photo-209224.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    link: "https://tlugowski.github.io/tlugowski.github.io-react-simple-calculator/",
   },
   {
     id: 3,
